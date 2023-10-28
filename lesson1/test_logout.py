@@ -6,7 +6,7 @@ driver = webdriver.Chrome()
 
 
 
-def test_add_item_to_the_cart():
+def test_logout():
     driver.get("https://www.saucedemo.com/")
 
     username_field = driver.find_element(By.XPATH, '//input[@data-test="username"]')
